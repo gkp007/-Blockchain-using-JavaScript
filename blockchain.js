@@ -47,6 +47,7 @@ blockchain.addBlock({ data: "Block2" });
 blockchain.addBlock({ data: "Bhfjhjd" });
 blockchain.addBlock({ data: "Bdjjdfdf" });
 blockchain.addBlock({ data: "Block2" });
+blockchain.addBlock({ data: "Block2" });
 
 const result = Blockchain.isValidChain(blockchain.chain);
 console.log(blockchain.chain);
