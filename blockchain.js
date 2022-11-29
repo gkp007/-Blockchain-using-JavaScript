@@ -42,12 +42,12 @@ class Blockchain {
 
 const blockchain = new Blockchain();
 
-blockchain.addBlock({ data: "Block2" });
-blockchain.addBlock({ data: "Block2" });
-blockchain.addBlock({ data: "Bhfjhjd" });
-blockchain.addBlock({ data: "Bdjjdfdf" });
-blockchain.addBlock({ data: "Block2" });
-blockchain.addBlock({ data: "Block2" });
+blockchain.addBlock({ data: "Block" });
+blockchain.addBlock({ data: "Block_1" });
+blockchain.addBlock({ data: "Block_2" });
+blockchain.addBlock({ data: "Block_3" });
+blockchain.addBlock({ data: "Block_4" });
+blockchain.addBlock({ data: "Block_5" });
 
 const result = Blockchain.isValidChain(blockchain.chain);
 console.log(blockchain.chain);
